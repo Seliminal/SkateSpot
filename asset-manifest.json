@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.6a59c397.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.6a59c397.js.map": "/static/js/main.6a59c397.js.map"
+    "main.css": "/SkateSpot/static/css/main.e6c13ad2.css",
+    "main.js": "/SkateSpot/static/js/main.f0164527.js",
+    "index.html": "/SkateSpot/index.html",
+    "main.e6c13ad2.css.map": "/SkateSpot/static/css/main.e6c13ad2.css.map",
+    "main.f0164527.js.map": "/SkateSpot/static/js/main.f0164527.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.6a59c397.js"
+    "static/js/main.f0164527.js"
   ]
 }
