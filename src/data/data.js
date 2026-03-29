@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    image: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npZKGOg_cswMaMmpf0z7mrFCaExGaK46WW8jx-1IhQUOuQ04joRERh-4coD2eBdbzuf6rywD68-sUtYuXBMo1ZXqwRiJqpDe0ctA5bV6HHWdYU7YDGSPnqGaKtBToLl02R91g=s680-w680-h510-rw",
+    image: "https://s3-us-west-1.amazonaws.com/west-coast-/skatepark_images/photos/000/002/249/original/seattle6-01.jpg?1459399544",
     name: "Judkins",
     location: "2161 S Judkins St, Seattle, WA 98144",
     level: "beginner",

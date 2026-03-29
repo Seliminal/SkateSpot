@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+
+.skate-spots-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;   
+  margin: 0 auto;    
+}
+
+.spot-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+
+@media (max-width: 900px) {
+  .skate-spots-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .skate-spots-container {
+    grid-template-columns: 1fr; 
+  }
+}
+
+
+.spot-image {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.spot-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}

@@ -6,24 +6,35 @@ function Spots({ skateSpotState }) {
   }
 
   return (
-    <div className="Spots">
+    <div className="page">
+      <div className='header'>
+        <h1>Skate Spots</h1>
+
+      </div>
+      <div className='skate-spots-container'>
       {skateSpotState.map((spot, index) => (
-        <div key={spot.id} style={{ marginBottom: '2rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
+      //Spot card
+      <div key={spot.id} className="spot-card">
+
+          <div className='spot-image'>
+            <img
+              src={spot.image}
+              alt="Photo"
+            />
+            </div>
+
+          <div className='spot-text'>
           <h2>
-            {spot.name} {spot.hasSkateboardIcon && <GiSkateboard style={{ marginLeft: 6, verticalAlign: 'middle', color: '#333' }} />}
+            {spot.name} {spot.hasSkateboardIcon && <GiSkateboard />}
           </h2>
           <p>{spot.location}</p>
           <p>Level: {spot.level}</p>
-
-          {spot.image && (
-            <img
-              src={spot.image}
-              alt={spot.name}
-              style={{ width: '300px', height: 'auto', marginTop: '1rem', borderRadius: '8px' }}
-            />
-          )}
+          </div>
         </div>
+
+      //Spot card end
       ))}
+      </div>
     </div>
   );
 }
